@@ -4,7 +4,6 @@ The final project of Android Basics Nanodegree by Google project.
 This consists of an Inventory App which is an amalgamtion of all we have learned throughout the course.
 Here are some of it's screenshots :
 
-![screenshot_20181126-164124](https://user-images.githubusercontent.com/37339485/49020906-848de100-f1b7-11e8-96f8-3facd737cd48.jpeg)
 ![screenshot_20181126-200518](https://user-images.githubusercontent.com/37339485/49020925-8d7eb280-f1b7-11e8-8a22-5d87ba61627b.jpeg)
 ![screenshot_20181126-200522](https://user-images.githubusercontent.com/37339485/49020933-91aad000-f1b7-11e8-99fb-b5477ccde527.jpeg)
 ![screenshot_20181126-200543](https://user-images.githubusercontent.com/37339485/49020946-98394780-f1b7-11e8-9c81-eb2300ebcdc2.jpeg)
