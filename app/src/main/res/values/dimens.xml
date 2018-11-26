@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="direcions_top">200dp</dimen>
+    <dimen name="paddinng_right">8dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="fab_margin">40dp</dimen>
+    <dimen name="editScreenn_padding">20dp</dimen>
+    <dimen name="nulld_width">0dp</dimen>
+    <dimen name="margin_Top">12dp</dimen>
+    <dimen name="info_textSize">18sp</dimen>
+    <dimen name="btn_width">48dp</dimen>
+    <dimen name="btn_mgTop">22dp</dimen>
+    <dimen name="mg_Left">8dp</dimen>
+    <dimen name="supplier_mgTop">24dp</dimen>
+    <dimen name="price_mgTop">6dp</dimen>
+    <dimen name="items_mgTp">10dp</dimen>
+    <dimen name="count_size">30sp</dimen>
+    <dimen name="button_width">2dp</dimen>
+    <dimen name="size_width">80dp</dimen>
+</resources>

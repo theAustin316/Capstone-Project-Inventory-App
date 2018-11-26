@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradi"
+    android:padding="@dimen/margin_Top"
+    tools:context="com.example.vivek.inventoryapp2.CatalogActivity">
+
+    <TextView
+        android:id="@+id/display_device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        tools:text="@string/Note9" />
+
+    <TextView
+        android:id="@+id/label_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/price_mgTop"
+        android:layout_toLeftOf="@id/label_price_display"
+        android:text="@string/Cost"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/label_price_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        tools:text="@string/random_cost" />
+
+    <TextView
+        android:id="@+id/info_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_price"
+        android:layout_alignParentRight="true"
+        android:text="@string/per_pc"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/display_supplier_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_device_name"
+        android:layout_marginTop="@dimen/mg_Left"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white"
+        tools:text="@string/sup_name" />
+
+    <TextView
+        android:id="@+id/quant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_supplier_name"
+        android:layout_marginTop="@dimen/items_mgTp"
+        android:text="@string/items_stock"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_supplier_name"
+        android:layout_toRightOf="@id/quant"
+        android:textColor="@color/white"
+        android:textSize="@dimen/count_size"
+        tools:text="@string/count" />
+
+    <Button
+        android:id="@+id/buy_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_supplier_name"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:text="@string/buy_now" />
+
+</RelativeLayout>
